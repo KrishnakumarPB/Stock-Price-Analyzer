@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;700&display=swap');
 .App {
   text-align: center;
   height:100vh;
@@ -38,10 +39,14 @@
   }
 }
 h1{
-	color:white
+	color:rgb(0, 0, 0);
+	font-size: 30px;
+	text-align: center;
+	font-weight: 600;
 }
 body{
-	background: #fddfa7;
+	background: #ffffff;
+	font-family: 'Mulish', sans-serif;
 	/* background: linear-gradient(90deg, rgba(246,233,90,1) 0%, rgba(255,233,144,1) 49%, rgba(252,226,106,1) 80%); */
 }
 
@@ -53,11 +58,12 @@ body{
 {
 	background-color: #ffffff;
 	padding:15px;
-	border: 2px solid rgb(41, 247, 75);
-	border-radius: 15px;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 5px;
+	height:20rem;
 }
 tr {
-	line-height: 15px;
+	line-height: .5rem;
  }
  td{
 	 min-width: 25px;
@@ -65,7 +71,7 @@ tr {
 .form-control
 {
   max-width: 100px;
-  max-height: 25px;
+  max-height: 35px;
   justify-content: center;
 }
  .control-label.text-left{
@@ -85,9 +91,11 @@ tr {
 .result
 {
 	background-color: rgb(250, 250, 250);
-	padding:15px;
+	/* padding:15px; */
 	border: 2px solid rgb(255, 0, 149);
-	border-radius: 15px;
+	border-radius: 5px;
+	height:20rem;
+	margin-left: 2rem;
 	transition: all .5s ease-in-out;
 }
 .moderateloss {

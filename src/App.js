@@ -33,7 +33,7 @@ function HandleSubmit(e)
     document.body.style.backgroundColor="#ed4928"
   }
   else{
-    document.body.style.backgroundColor="#fddfa7"
+    document.body.style.backgroundColor="white"
   }
   setmargin(margin)
   setmaginpercent(marginpercent)
@@ -52,16 +52,16 @@ function HandleSubmit(e)
           <h1>Stock Prize Analyzer</h1>
         </header>
         <div className="row justify-content-center align-items-center">
-          <div className="col-lg-5 col-md-8 col-10 mb-3 input">
+          <div className="col-lg-5 col-md-8 col-10  input">
             <h2>Inputs</h2>
-            <form onSubmit={HandleSubmit} className="form-inline d-block mt-5"  >
-            <table className="table table-borderless">
+            <form onSubmit={HandleSubmit} className="form-inline d-block mt-3"  >
+            <table className="table table-striped">
               <tbody align="left">
                 <tr>
                   <td align ="left" >
                   <label for="old-price" className="label "><p> Stock Price While Purchasing</p></label>
                   </td>
-                  <td>
+                  <td align="left">
                   <input type="number" className="form-control" id='old-price'required ></input>
                   </td>
                 </tr>
@@ -88,7 +88,7 @@ function HandleSubmit(e)
           </div>
           <div className="col-lg-5 col-md-8 col-10  result ">
             <h2>Results</h2>
-            <table className="table table-borderless mt-5" >
+            <table className="table table-striped mt-3" >
               <tbody align="left">
               <tr>
               <td>
